@@ -47,6 +47,8 @@ header>h1{
 
 article>p{
   text-align: justify;
+  overflow:auto;
+  height: 40px;
 }
 
 p{
