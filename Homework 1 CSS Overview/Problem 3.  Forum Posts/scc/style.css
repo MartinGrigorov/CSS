@@ -36,7 +36,8 @@ li>a:hover {
 
 li>a:visited {
     color: white;
-    text-decoration: underline;
+    border-bottom-color:white;
+    border-bottom: 50px;
   }
 
 header>h1{
@@ -45,10 +46,18 @@ header>h1{
   color: #FAFAD2;
 }
 
+article{
+  height: 150px;
+  width: 1850px;
+  overflow: hidden;
+}
+
 article>p{
   text-align: justify;
   overflow:auto;
-  height: 40px;
+  height: 45px;
+  width: 1850px;
+  padding-right:18px
 }
 
 p{
@@ -63,6 +72,7 @@ article footer p,article footer p > a {
  }
 
 body > footer {
+  padding-top: 60px;
   font-size:20px ;
   text-align: center;
 }
