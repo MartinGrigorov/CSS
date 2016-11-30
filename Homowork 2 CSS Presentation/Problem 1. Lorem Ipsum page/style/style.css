@@ -1,0 +1,17 @@
+@import url('./font.css');
+
+body{
+  font-family: Consolas;
+  color: #0094ff;
+  font-size: 20px;
+}
+
+p:first-letter{
+  font-size: 3em;
+  font-family: 'Great Vibes';
+  font-weight: bolder;
+}
+
+p:first-line{
+  font-weight: bolder;
+}
