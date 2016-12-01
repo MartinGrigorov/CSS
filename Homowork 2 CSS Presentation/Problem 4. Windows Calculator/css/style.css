@@ -205,11 +205,11 @@ input[type="button"] {
 }
 
 .blue {
-    background: linear-gradient(to bottom, #f9fdff 0%, #d4e0ee 100%);
+    background: linear-gradient(to bottom, #f9fdff 0%, #b4cff1 100%);
 }
 
 .white {
-    background: linear-gradient(to bottom, #fafeff 0%, #eef4f9 50%, #ebf2f9 99%);
+    background: linear-gradient(to bottom, #fafeff 0%, #eef4f9 50%, #e9eff5 99%);
 }
 
 .right2 {
@@ -228,4 +228,8 @@ input[type="button"] {
     border-color: #FBE772;
     background: linear-gradient(to bottom, #fef3e8 0%, #fbd073 50%, #fcf7c3 99%);
     box-shadow: 0px 0px 5px #5d593e;
+}
+
+.disabled:hover{
+
 }
