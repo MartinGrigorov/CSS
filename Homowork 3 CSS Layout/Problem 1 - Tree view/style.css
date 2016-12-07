@@ -1,0 +1,37 @@
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.main {
+    list-style-type: none;
+}
+
+.main ul {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="checkbox"]:hover+label {
+    text-decoration: underline;
+    
+}
+
+input {
+    display: none;
+}
+
+.label:hover {
+    cursor: pointer;
+}
+
+.preview {
+    display: none;
+}
+
+input[type="checkbox"]:checked+label+.preview {
+    display: block;
+}
